@@ -1,0 +1,10 @@
+{
+	"name" : "Realtime-tweets",
+	"version" : "0.0.1",
+	"author" : "Rajika Imal",
+	"description" : "Realtime-tweets search with hashtags or keywords",
+	"dependencies" : {
+		"express": "4.10.2",
+    	"socket.io": "1.2.0"
+	}
+}
