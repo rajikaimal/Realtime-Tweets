@@ -4,16 +4,22 @@
   <title>Realtime-Tweets</title>
    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material-fullpalette.css">
     <script>
       var socket = io();
       socket.on('mytweet',function(tweet){
-        $('#messages').append($('<li>').text((tweet)['text'])); 
+        console.log(JSON.stringify(tweet));
+          $('#messages').append($('<li>').text((tweet)['text'])); 
       });
     </script>
 
 </head>
 <body>
   <h1>Realtime-Tweets</h1>
-  <ul id="messages"></ul>
+  <ul id="messages">
+    <div class="list-group-separator"></div>
+  </ul>
+    
+</div>
 </body>
 </html>
