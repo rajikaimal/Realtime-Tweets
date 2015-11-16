@@ -3,6 +3,8 @@ Deployed using NodeJs,ExpressJs,JQuery
 
 Tweet streaming application using keywords or hashtags
 
+<img src="http://i.imgur.com/rCBDmHZ.png?1" />
+
 <p>git clone https://github.com/xoRajika/Realtime-Tweets</p>
 <p>cd Realtime-Tweets</p>
 <p>npm install</p>
