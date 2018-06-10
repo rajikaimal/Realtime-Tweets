@@ -1,4 +1,7 @@
 # Realtime-Tweets
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/rajikaimal/Realtime-Tweets.svg)](https://greenkeeper.io/)
+
 Deployed using NodeJs,ExpressJs,JQuery
 
 Tweet streaming application using keywords or hashtags
