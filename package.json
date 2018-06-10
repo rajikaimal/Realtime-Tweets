@@ -4,9 +4,9 @@
 	"author" : "Rajika Imal",
 	"description" : "Realtime-tweets search with hashtags or keywords",
 	"dependencies" : {
-		"express": "4.10.2",
-    		"socket.io": "1.2.0",
-		"twitter": "1.2.5"
+		"express": "4.16.3",
+    		"socket.io": "2.1.1",
+		"twitter": "1.7.1"
 	},
 	"license": "MIT"
 }
